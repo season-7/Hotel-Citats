@@ -14,7 +14,44 @@ My Custom CSS
  
 
 
+
 /* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   .mainHeader nav {
+	   background-color: #666;
+	   height: 40px;
+	   border-radius: 5px;
+	   
+   }
+   .mainHeader nav ul {
+	   list-style: none;
+	   margin: 0 auto;
+	   
+   }
+   .mainHeader nav ul li {
+	   float: left;
+	   display: inline;
+	   border-radius: 5px;
+	-moz-border-radius: 5px;
+	 -webkit-border-radius: 5px;
+   }
+   .mainHeader nav a:link, .mainheader nav a:visited {
+	   color: #FFF;
+	   display: inline-block;
+	   padding: 10px 25px;
+	
+   }
+   .mainheader nav a:hover, .mainHeader nav a:active,
+   .mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+	   background-color: #CF5C3F;
+	   text-shadow: none;
+   }
+
+   .mainheader na ul li a {
+	   border-radius: 5px;
+   }
+   /* --------------------------------------
    Typography
    -------------------------------------- */
  body{
@@ -44,39 +81,43 @@ My Custom CSS
 	  height: auto;
 	  clear: 2% 0; 
   }
-
-/* --------------------------------------
-   Navbar
-   -------------------------------------- */
-   .mainHeader nav {
-	   background-color: #666;
-	   height: 40px;
-	   border-radius: 5px;
-	   
-   }
-   .mainHeader nav ul {
-	   list-style: none;
-	   margin: 0 auto;
-	   
-   }
-   .mainHeader nav ul li {
-	   float: left;
-	   display: inline;
-	   
-   }
-   .mainHeader nav a:link, .mainheader nav a:visited {
-	   color: #FFF;
-	   display: inline-block;
-	   padding: 10px 25px;
+  .mainContent {
+	  line-height: 25px;
+	  border-radius: 5px;
+	  -webkit-border-radius: 5px;
+	  
+  }
+.content {
+	width: 70%;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	 -webkit-border-radius: 5px;
 	
-   }
-   .mainheader nav a:hover, .mainHeader nav a:active,
-   .mainHeader nav .active a:link, .mainHeader nav .active a:visited {
-	   background-color: #CF5C3F;
-	   text-shadow: none;
-   }
-
-   
+}
+.topcontent {
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	 -webkit-border-radius: 5px;
+	 padding: 3% 5%;
+	 margin-top: 2%;
+}
+.top-sidebar {
+	width: 25%;
+	float: left;
+	background-color: #FFF;
+}
+.middle-sidebar {
+	width: 100%;
+	float: left;
+	background-color: #FFF;
+}
+.bottom-sidebar {
+	width: 100%;
+	float: left;
+	background-color: #FFF;
+}
    
 /* --------------------------------------
    Carousel

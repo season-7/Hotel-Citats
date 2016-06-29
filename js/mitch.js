@@ -11,3 +11,4 @@ function slidy(){
         counter = 0
     }
 }
+setInterval(slidy, 6000);
